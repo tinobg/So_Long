@@ -58,8 +58,19 @@ Exemple de map:
 ```sh
 make
 ./so_long maps/map.ber
-
+```
+```sh
 Pour nettoyer:
 make clean
 make fclean
 make re
+```
+
+🚫 Gestion des erreurs
+
+Affichage Error\n + message explicite si :
+- Map invalide
+- Mauvais caractère
+- Pas de chemin possible
+- Allocation mémoire échouée
+- Fichier inaccessible
